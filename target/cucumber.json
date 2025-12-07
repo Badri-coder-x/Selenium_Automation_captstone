@@ -1,0 +1,718 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7115021600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Home page",
+            "match": {
+              "location": "stepdefinition.TC2_articleSearch.user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-07T12:03:18.442Z",
+        "line": 7,
+        "name": "User searches for SVEC articles with valid keyword",
+        "description": "",
+        "id": "search-svec-articles;user-searches-for-svec-articles-with-valid-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97998000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters a valid keyword \"a\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinition.TC2_articleSearch.the_user_enters_a_valid_keyword_in_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2072105100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on search button",
+            "match": {
+              "location": "stepdefinition.TC2_articleSearch.the_user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 376042500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user is directed to SVEC articles page",
+            "match": {
+              "location": "stepdefinition.TC2_articleSearch.the_user_is_directed_to_SVEC_articles_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ValidArticleSearch"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6274320100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Home page",
+            "match": {
+              "location": "stepdefinition.TC2_articleSearch.user_is_on_the_Home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-07T12:03:28.255Z",
+        "line": 14,
+        "name": "User searches for SVEC articles with invalid keyword",
+        "description": "",
+        "id": "search-svec-articles;user-searches-for-svec-articles-with-invalid-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83820600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user enters an invalid keyword \"123456\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123456\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinition.TC2_articleSearch.the_user_enters_an_invalid_keyword_in_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2071188600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks on search button",
+            "match": {
+              "location": "stepdefinition.TC2_articleSearch.the_user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218887200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "an error message that no elements found is displayed",
+            "match": {
+              "location": "stepdefinition.TC2_articleSearch.an_error_message_that_no_elements_found_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidArticleSearch"
+          }
+        ]
+      }
+    ],
+    "name": "Search SVEC articles",
+    "description": "",
+    "id": "search-svec-articles",
+    "keyword": "Feature",
+    "uri": "file:features/article_search.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6753028200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the event page",
+            "match": {
+              "location": "stepdefinition.TC3_eventSearch.user_is_on_the_event_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-07T12:03:36.930Z",
+        "line": 7,
+        "name": "User searches for SVEC events with valid keyword",
+        "description": "",
+        "id": "search-svec-events;user-searches-for-svec-events-with-valid-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70321200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user enters a valid keyword \"a\" in the event search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 32
+                }
+              ],
+              "location": "stepdefinition.TC3_eventSearch.the_user_enters_a_valid_keyword_in_the_event_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77000100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on event search button",
+            "match": {
+              "location": "stepdefinition.TC3_eventSearch.the_user_clicks_on_event_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3218932600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user is directed to SVEC event page",
+            "match": {
+              "location": "stepdefinition.TC3_eventSearch.the_user_is_directed_to_SVEC_event_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ValidEventSearch"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6861290100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the event page",
+            "match": {
+              "location": "stepdefinition.TC3_eventSearch.user_is_on_the_event_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-07T12:03:47.071Z",
+        "line": 13,
+        "name": "User searches for SVEC events with invalid keyword",
+        "description": "",
+        "id": "search-svec-events;user-searches-for-svec-events-with-invalid-keyword",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86987700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters a invalid keyword \"12312\" in the event search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12312\"",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinition.TC3_eventSearch.the_user_enters_a_invalid_keyword_in_the_event_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 839065600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks on event search button",
+            "match": {
+              "location": "stepdefinition.TC3_eventSearch.the_user_clicks_on_event_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2248468700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an error message that no events found is shown",
+            "match": {
+              "location": "stepdefinition.TC3_eventSearch.an_error_message_that_no_events_found_is_shown()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidEventSearch"
+          }
+        ]
+      }
+    ],
+    "name": "Search SVEC events",
+    "description": "",
+    "id": "search-svec-events",
+    "keyword": "Feature",
+    "uri": "file:features/event_search.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-12-07T12:03:57.127Z",
+        "line": 4,
+        "name": "Successful registration with all mandatory fields",
+        "description": "",
+        "id": "registering-the-user-as-an-admin;successful-registration-with-all-mandatory-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7059882600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the registration page",
+            "match": {
+              "location": "stepdefinition.TC1_registration.user_is_on_the_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2316414500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the mandatory fields by the following",
+            "match": {
+              "location": "stepdefinition.TC1_registration.user_enters_the_mandatory_fields_by_the_following(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "field",
+                  "value"
+                ]
+              },
+              {
+                "cells": [
+                  "login",
+                  "user123"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "password123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "Steve"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Rogers"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "stev121@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2496813500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user clicks add",
+            "match": {
+              "location": "stepdefinition.TC1_registration.the_user_clicks_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:969)\r\n\tat org.testng.Assert.assertTrue(Assert.java:43)\r\n\tat org.testng.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinition.TC1_registration.the_system_navigates_to_Home_page(TC1_registration.java:181)\r\n\tat ✽.the system navigates to Home page(file:///C:/project%20demo%20automation/capstone/features/registration.feature:15)\r\n",
+              "duration": 316974200,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "the system navigates to Home page",
+            "match": {
+              "location": "stepdefinition.TC1_registration.the_system_navigates_to_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ValidDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-07T12:04:09.356Z",
+        "line": 17,
+        "name": "Regsistration fails with missing mandatory fields",
+        "description": "",
+        "id": "registering-the-user-as-an-admin;regsistration-fails-with-missing-mandatory-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7016997600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on the registration page",
+            "match": {
+              "location": "stepdefinition.TC1_registration.user_is_on_the_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4800001600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user does not fill the mandatory page",
+            "match": {
+              "location": "stepdefinition.TC1_registration.user_does_not_fill_the_mandatory_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2463529100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user clicks add",
+            "match": {
+              "location": "stepdefinition.TC1_registration.the_user_clicks_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241006300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the system throws error",
+            "match": {
+              "location": "stepdefinition.TC1_registration.the_system_throws_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-07T12:04:23.891Z",
+        "line": 24,
+        "name": "Registration fails with invalid email format",
+        "description": "",
+        "id": "registering-the-user-as-an-admin;registration-fails-with-invalid-email-format",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7040995500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is on the registration page",
+            "match": {
+              "location": "stepdefinition.TC1_registration.user_is_on_the_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2314176600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters invalid email",
+            "match": {
+              "location": "stepdefinition.TC1_registration.user_enters_invalid_email(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "field",
+                  "value"
+                ]
+              },
+              {
+                "cells": [
+                  "login",
+                  "user123"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "password123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "Steve"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "Rogers"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "stev121.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2486251500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user clicks add",
+            "match": {
+              "location": "stepdefinition.TC1_registration.the_user_clicks_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 251982500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the system throws error that email is invalid",
+            "match": {
+              "location": "stepdefinition.TC1_registration.the_system_throws_error_that_email_is_invalid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidEmail"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-12-07T12:04:36.006Z",
+        "line": 39,
+        "name": "Registration fails with invalid firstname and lastname",
+        "description": "",
+        "id": "registering-the-user-as-an-admin;registration-fails-with-invalid-firstname-and-lastname",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7112994600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user is on the registration page",
+            "match": {
+              "location": "stepdefinition.TC1_registration.user_is_on_the_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2326131800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enters invalid firstname and lastname",
+            "match": {
+              "location": "stepdefinition.TC1_registration.user_enters_invalid_firstname_and_lastname(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "field",
+                  "value"
+                ]
+              },
+              {
+                "cells": [
+                  "login",
+                  "usead1f"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "password123"
+                ]
+              },
+              {
+                "cells": [
+                  "firstname",
+                  "123456"
+                ]
+              },
+              {
+                "cells": [
+                  "lastname",
+                  "789012"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "stev121@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2512191100,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "the user clicks add",
+            "match": {
+              "location": "stepdefinition.TC1_registration.the_user_clicks_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:969)\r\n\tat org.testng.Assert.assertTrue(Assert.java:43)\r\n\tat org.testng.Assert.assertTrue(Assert.java:53)\r\n\tat stepdefinition.TC1_registration.the_system_throws_error_that_firstname_and_lastname_is_invalid(TC1_registration.java:266)\r\n\tat ✽.the system throws error that firstname and lastname is invalid(file:///C:/project%20demo%20automation/capstone/features/registration.feature:51)\r\n",
+              "duration": 363232300,
+              "status": "failed"
+            },
+            "line": 51,
+            "name": "the system throws error that firstname and lastname is invalid",
+            "match": {
+              "location": "stepdefinition.TC1_registration.the_system_throws_error_that_firstname_and_lastname_is_invalid()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Invalidfnameandlname"
+          }
+        ]
+      }
+    ],
+    "name": "Registering the user as an Admin",
+    "description": "",
+    "id": "registering-the-user-as-an-admin",
+    "keyword": "Feature",
+    "uri": "file:features/registration.feature",
+    "tags": []
+  }
+]

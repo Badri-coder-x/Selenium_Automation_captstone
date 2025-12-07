@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-07T17:33:17 IST" name="Suite" finished-at="2025-12-07T17:34:48 IST" duration-ms="90582">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-12-07T17:33:17 IST" name="Test Runner" finished-at="2025-12-07T17:34:48 IST" duration-ms="90545">
+      <class name="testrunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:33:17 IST" name="setUpClass" finished-at="2025-12-07T17:33:18 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:33:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-07T17:33:28 IST" duration-ms="9939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User searches for SVEC articles with valid keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search SVEC articles]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:33:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-07T17:33:36 IST" duration-ms="8669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User searches for SVEC articles with invalid keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search SVEC articles]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:33:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-07T17:33:47 IST" duration-ms="10149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User searches for SVEC events with valid keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search SVEC events]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:33:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-07T17:33:57 IST" duration-ms="10053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User searches for SVEC events with invalid keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search SVEC events]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:33:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-07T17:34:09 IST" duration-ms="12227" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful registration with all mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registering the user as an Admin]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC1_registration.the_system_navigates_to_Home_page(TC1_registration.java:181)
+at ✽.the system navigates to Home page(file:///C:/project%20demo%20automation/capstone/features/registration.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:34:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-07T17:34:23 IST" duration-ms="14534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Regsistration fails with missing mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registering the user as an Admin]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:34:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-07T17:34:35 IST" duration-ms="12114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration fails with invalid email format"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registering the user as an Admin]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:34:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-12-07T17:34:48 IST" duration-ms="12334" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration fails with invalid firstname and lastname"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Registering the user as an Admin]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at stepdefinition.TC1_registration.the_system_throws_error_that_firstname_and_lastname_is_invalid(TC1_registration.java:266)
+at ✽.the system throws error that firstname and lastname is invalid(file:///C:/project%20demo%20automation/capstone/features/registration.feature:51)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner@394a2528]" started-at="2025-12-07T17:34:48 IST" name="tearDownClass" finished-at="2025-12-07T17:34:48 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner -->
+    </test> <!-- Test Runner -->
+    <test started-at="2025-12-07T17:34:48 IST" name="Report Generator" finished-at="2025-12-07T17:34:48 IST" duration-ms="0">
+      <class name="utility.reportGenerator">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:utility.reportGenerator@5552768b]" started-at="2025-12-07T17:33:17 IST" name="beforeSuite" finished-at="2025-12-07T17:33:17 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:utility.reportGenerator@5552768b]" started-at="2025-12-07T17:34:48 IST" name="afterSuite" finished-at="2025-12-07T17:34:48 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- utility.reportGenerator -->
+    </test> <!-- Report Generator -->
+  </suite> <!-- Suite -->
+</testng-results>

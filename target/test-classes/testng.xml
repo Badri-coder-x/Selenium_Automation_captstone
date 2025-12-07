@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test Runner">
+    <classes>
+      <class name="testrunner"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Report Generator">
+    <classes>
+      <class name="utility.reportGenerator"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

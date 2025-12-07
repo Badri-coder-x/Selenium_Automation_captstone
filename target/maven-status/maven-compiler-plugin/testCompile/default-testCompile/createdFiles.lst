@@ -1,0 +1,9 @@
+pageObjects\EventPage.class
+utility\ScreenshotGenerator.class
+pageObjects\RegisterPage.class
+stepdefinition\TC1_registration.class
+pageObjects\HomePage.class
+stepdefinition\TC3_eventSearch.class
+stepdefinition\TC2_articleSearch.class
+utility\reportGenerator.class
+testrunner.class
